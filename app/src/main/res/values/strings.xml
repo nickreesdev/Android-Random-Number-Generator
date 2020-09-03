@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Random Number Generator</string>
+    <string name="title_text">Hello,</string>
+    <string name="subtitle_text">Welcome to my app.</string>
+    <string name="tip">Click \'GENERATE\' to generate a random number!</string>
+
+    <string name="response_waiting">Waiting...</string>
+
+    <!-- Buttons -->
+    <string name="gen_button">GENERATE</string>
+</resources>
