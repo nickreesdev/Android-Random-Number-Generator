@@ -71,5 +71,35 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3"
         app:layout_constraintVertical_bias="0.07999998" />
 
+    <EditText
+        android:id="@+id/highNumberEdit"
+        android:layout_width="120dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:hint="High"
+        android:inputType="number"
+        android:text="1000"
+        app:layout_constraintBottom_toTopOf="@+id/generate_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/response_text"
+        app:layout_constraintVertical_bias="0.32" />
+
+    <EditText
+        android:id="@+id/lowNumberEdit"
+        android:layout_width="120dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:hint="Low"
+        android:inputType="number"
+        android:text="1"
+        app:layout_constraintBottom_toTopOf="@+id/generate_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/response_text"
+        app:layout_constraintVertical_bias="0.32" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

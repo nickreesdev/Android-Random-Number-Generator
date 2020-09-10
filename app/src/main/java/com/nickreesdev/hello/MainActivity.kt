@@ -22,10 +22,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        val low = findViewById<EditText>(R.id.lowNumberEdit)
+        val high = findViewById<EditText>(R.id.highNumberEdit)
+
         val button = findViewById<Button>(R.id.generate_button)
         button.setOnClickListener {
             val textView = findViewById<TextView>(R.id.response_text)
-            textView.text = randomNumber(1, 1500).toString()
+            textView.text = randomNumber(Integer.parseInt(low.text.toString()), Integer.parseInt(high.text.toString())).toString()
         }
 
     }
